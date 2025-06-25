@@ -244,7 +244,6 @@ main {
   width: 26px;
 }
 #users {
-    position: relative;
     margin-top: 9rem;
     margin-bottom: 10rem;
     padding: 35px 0px;
@@ -255,8 +254,6 @@ main {
     gap: 2em;
 }
 #users article {
-  position: relative;
-  z-index: 1;
   width: 82%;
   max-width: 400px;
   padding: 20px 10px;
@@ -267,15 +264,17 @@ main {
   transition: 0.2s ease ;
 
 }
-
-#first_user {
+#users #first_user{
+  position: relative;
+  z-index: 100000 !important;
+}
+#img_quotes {
   position: absolute;
-  top: -25px;
+  top: -29px;
   left: -10px;
-  width: 2.4em;
-  z-index: 0; 
-  pointer-events: none;
-  opacity: 0.3; 
+  width: 2.2em;
+  opacity: 0.3;
+  z-index: 0 !important;
 }
 .profile {
     display: flex;
