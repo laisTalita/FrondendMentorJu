@@ -453,6 +453,10 @@ footer a:hover {
       #sociais {
         width: 200px;
       }
+      button{
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.83);
+        font-size: 1.01em;
+      }
 }
 
 @media (min-width: 1024px) {
