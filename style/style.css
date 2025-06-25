@@ -449,7 +449,7 @@ footer .attribution a {
 
     .curvy-bg {
         height: 500px;
-        top: 56%;
+        top: 50%;
         background-image: url("../images/bg-curvy-desktop.svg");
         background-size: contain;   
         background-position: center;    
@@ -480,7 +480,7 @@ footer .attribution a {
     .curvy-bg {
         width: 100%;
         height: 600px;
-        top: 50%;
+        top: 41%;
         background-image: url("../images/bg-curvy-desktop.svg");
         background-size: contain;       
         background-position: center left;
@@ -531,7 +531,7 @@ footer .attribution a {
     .curvy-bg {
         width: 100%;
         height: 100%;
-        top: 29%;
+        top: 22%;
         background-image: url("../images/bg-curvy-desktop.svg");
         background-size: contain;       
         background-position: center ;
