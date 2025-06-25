@@ -37,9 +37,13 @@ body {
 }
 
 nav {
-    padding: 2em 2em 1em 1em;
+    padding: 3em 2em 1em 1em;
     display: flex;
     justify-content: space-between;
+}
+nav ul li a {
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
 }
 
 a {
@@ -395,9 +399,13 @@ footer > .footer-content{
     padding: 5px;
     transition: 0.2s ease ;
 }
-button:hover,#users article:hover {
+button:hover,#users article:hover{
     cursor: pointer;
     transform: scale(1.04);
+}
+nav ul li a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 #sociais i:hover{
   cursor: pointer;
